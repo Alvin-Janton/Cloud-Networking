@@ -1,17 +1,7 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# VPC Endpoints
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-endpoints)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## VPC Endpoints
 
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_09bcaa8a)
 
 ---
 
