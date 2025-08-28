@@ -1,17 +1,7 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Creating a Private Subnet
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-private)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## Creating a Private Subnet
 
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-private_afe1fdbd)
 
 ---
 
@@ -51,7 +41,7 @@ My private and public subnets cannot have the same CIDR block. This is because, 
 
 By default, my private subnet is associated with my route table created for my public subnet.
 
-I had to set up a new route table because the route table expose my private subnet to external traffic, which is not what I want.
+I had to set up a new route table because the public route table exposes my private subnet to external traffic.
 
 My private subnet's dedicated route table only has one inbound and one outbound rule that allows for internal movement within my AWS environment.
 
