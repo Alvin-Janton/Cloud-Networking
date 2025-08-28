@@ -1,17 +1,7 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Launching VPC Resources
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-ec2)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## Launching VPC Resources
 
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-ec2_8ee57662)
 
 ---
 
@@ -53,7 +43,7 @@ A private key's file format is the encryption algorithm used to create the key. 
 
 ## Launching a public server
 
-Start your response with 'I had to change my EC2 instance's networking settings by selecting my VPC network instead of the deafault. I also had to choose my security group from the list instead of the default.
+I had to change my EC2 instance's networking settings by selecting my VPC network instead of the deafault.
 
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-ec2_88727bef)
 
