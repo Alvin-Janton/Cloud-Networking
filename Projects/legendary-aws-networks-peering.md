@@ -1,17 +1,7 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# VPC Peering
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-peering)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## VPC Peering
 
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-peering_88727bef)
 
 ---
 
@@ -63,7 +53,7 @@ The CIDR blocks for VPCs 1 and 2 are 10.1.0.0/16, and 10.2.0.0/16 respectively. 
 
 ### I also launched 2 EC2 instances
 
-I didn't set up key pairs for these EC2 instances as AWS has a service called EC2 Connect, which allows for secure login into EC2 instances using AWS managed SSHkeys.
+I didn't set up key pairs for these EC2 instances as AWS has a service called EC2 Connect, which allows for secure login into EC2 instances using AWS managed SSH keys.
 
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-peering_11111111)
 
@@ -129,7 +119,7 @@ Associating an Elastic IP address resolved the error because now, EC2 Connect ha
 
 ## Troubleshooting ping issues
 
-To test VPC peering, I ran the command the Ping command to the private ipv4 address of of the VPC-2 EC2 instance. The Ping command sends ICMP traffic to a specified IP address, this allows me to check whether the two instances can communicate.
+To test VPC peering, I used the Ping command to send traffic to the private ipv4 address of of the VPC-2 EC2 instance. The Ping command sends ICMP traffic to a specified IP address, this allows me to check whether the two instances can communicate.
 
 A successful ping test would validate my VPC peering connection because it shows that the two EC2 instances can communicate back and forth.
 
