@@ -109,7 +109,7 @@ This query analyzes the top 10 largest traffic transfered in bytes, as well as f
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/c99ba57006330f7587d7688adc991577dafd6d9d/images/architecture9.png?raw=true)
 
 ---
 
@@ -150,17 +150,6 @@ Although I'm using access keys in this project, a best practice alternative is t
 
 ---
 
-## In the second part of my project...
-
-### Step 4 - Set up an S3 bucket
-
-In this step, I will create an S3 bucket.
-
-### Step 5 - Connecting to my S3 bucket
-
-In this step, I will try to connect my EC2 instance to my S3 bucket.
-
----
 
 ## Connecting to my S3 bucket
 
@@ -193,6 +182,7 @@ The third command I ran was " aws s3 ls s3://alvin-final-report" which validated
 
 ---
 
----
+
+
 
 
