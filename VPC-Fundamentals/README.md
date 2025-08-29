@@ -4,6 +4,10 @@
 
 ---
 
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/face50d9d252bca4b826c5d5d107c4f51d0719ff/images/architecture.png?eaw=true)
+
+---
+
 ## Introducing Today's Project!
 
 ### What is Amazon VPC?
@@ -67,4 +71,5 @@ Compared to using the AWS Console, an advantage of using commands is speed and a
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-vpc_9b2465411)
 
 ---
+
 
