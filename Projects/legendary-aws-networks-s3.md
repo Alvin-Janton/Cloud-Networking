@@ -1,17 +1,7 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Access S3 from a VPC
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-s3)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## Access S3 from a VPC
 
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-s3_3e1e79a2)
 
 ---
 
@@ -79,9 +69,8 @@ The second command I ran was aws configure This command is used to configure cre
 
 To set up my EC2 instance to interact with my AWS environment, I configured credentials for my AWS User account using the AWS configure command and pasting my access key, and secret access key.
 
-Access keys are similar to a username and password, they allow for access to your an AWS user to an external host.
+Access keys are similar to a username and password, they allow for access to your AWS user to an external host.
 
-Secret access keys are passwords created by AWS that you can use to configure access to your AWS account.
 
 ### Best practice
 

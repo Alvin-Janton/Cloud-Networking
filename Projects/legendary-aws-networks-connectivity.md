@@ -1,17 +1,6 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Testing VPC Connectivity
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-connectivity)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## Testing VPC Connectivity
-
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-connectivity_8ee57662)
 
 ---
 
@@ -59,9 +48,9 @@ I fixed this error by editing my public EC2 instance's security group, and addin
 
 ## Connectivity Between Servers
 
-Ping is a command that sends data packets to a source using the ICMP protocal. I used ping to test the connectivity between my private and public EC2 instances.
+Ping is a command that sends data packets to a source using the ICMP protocol. I used ping to test the connectivity between my private and public EC2 instances.
 
-The ping command I ran was Ping 10.0.1.113. What this command does, is that it sends ICMP traffic to the specified IP address and returns the response in the terminal.
+The ping command I ran was Ping 10.0.1.113. What this command does is that it sends ICMP traffic to the specified IP address and returns the response in the terminal.
 
 The first ping returned nothing. This meant that the traffic could not reach the private EC2 instance.
 
@@ -71,7 +60,7 @@ The first ping returned nothing. This meant that the traffic could not reach the
 
 ## Troubleshooting Connectivity
 
-I troubleshooted this by checking my public EC2 instance's route table, security group, and network ACL. I found that my security group did not allow ICMP traffic to be sent. After fixing that, I had to look at my private EC2 instance's network resources as well. I updated the security group and NACL to fix the problem.
+I troubleshot this by checking my public EC2 instance's route table, security group, and network ACL. I found that my security group did not allow ICMP traffic to be sent. After fixing that, I had to look at my private EC2 instance's network resources as well. I updated the private EC2 instance's security group and NACL to fix the problem.
 
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-connectivity_4a9e8014)
 
@@ -91,7 +80,7 @@ Ping and curl are different because Ping sends ICMP traffic, which is similar to
 
 ## Connectivity to the Internet
 
-I ran the curl command curl example.com which returned the html contents of the website. This demonstrates that my public EC2 is capable of connecting to the internet.
+I ran the command "curl learn.nextwork.org" which returned the html contents of the website. This demonstrates that my public EC2 is capable of connecting to the internet.
 
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-connectivity_8ee57662)
 

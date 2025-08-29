@@ -1,17 +1,6 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# VPC Traffic Flow and Security
-
-**Project Link:** [View Project](http://learn.nextwork.org/projects/aws-networks-security)
-
-**Author:** Alvin Janton  
-**Email:** alvinjanton575@gmail.com
-
----
 
 ## VPC Traffic Flow and Security
-
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-security_92b0b0b4)
 
 ---
 
@@ -83,9 +72,9 @@ The difference between a security group and a network ACL is that unlike securit
 
 ### Similar to security groups, network ACLs use inbound and outbound rules
 
-By default, a network ACL's inbound and outbound rules will to deny all inbound and outbound traffic, with no rules in place to allow movement.
+By default, a network ACL's inbound and outbound rules will deny all inbound and outbound traffic.
 
-In contrast, a custom ACL’s inbound and outbound rules are automatically set to allow all inbound and outbound traffic regardless, with no rules to deny any types of traffic.
+In contrast, a custom ACL’s inbound and outbound rules are automatically set to allow all inbound and outbound traffic.
 
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-security_4faeb056)
 
