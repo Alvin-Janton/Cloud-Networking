@@ -78,7 +78,7 @@ Compared to using the AWS Console, an advantage of using commands is speed and a
 
 ---
 
-
+![Archetecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/93fa7d7cd592c5aaecd416c33e441771b7f8e785/images/architecture2.png?raw=true)
 
 ---
 
@@ -151,4 +151,5 @@ Now that I've learnt about EC2 Global View, I'd use it again if I ever do a muli
 ---
 
 ---
+
 
