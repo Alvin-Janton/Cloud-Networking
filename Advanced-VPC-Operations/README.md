@@ -187,7 +187,7 @@ The third command I ran was " aws s3 ls s3://alvin-final-report" which validated
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/687dc3680f5d81b6c29fa489e91ccb7973a2287a/images/architecture11.png?raw=true)
 
 ---
 
@@ -243,6 +243,7 @@ I updated my endpoint's policy by changing the Effect from Allow to Deny. I coul
 ![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_3e1e79a3)
 
 ---
+
 
 
 
