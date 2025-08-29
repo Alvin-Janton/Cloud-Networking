@@ -146,7 +146,7 @@ I ran the command "curl learn.nextwork.org" which returned the html contents of 
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/e8680e257aaf4b43290ab484d76fdbf4b53501d3/images/architecture7.png?raw=ture)
 
 ---
 
@@ -186,21 +186,6 @@ Format your response as 'My VPCs' new routes have a destination of the other VPC
 
 ---
 
-## In the second part of my project...
-
-### Step 5 - Use EC2 Instance Connect
-
-In this step, I will use EC2 Connect to connect to my VPC-1 EC2 instance.
-
-### Step 6 - Connect to EC2 Instance 1
-
-In this step, I will try to connect to my EC2 instance again, and fix another error.
-
-### Step 7 - Test VPC Peering
-
-In this step, I will attempt to send traffic from instance 1 to instance 2, and fix any errors that occur.
-
----
 
 ## Troubleshooting Instance Connect
 
@@ -235,6 +220,7 @@ I had to update my second EC2 instance's security group because it blocked ICMP 
 ---
 
 ---
+
 
 
 
