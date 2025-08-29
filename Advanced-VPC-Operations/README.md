@@ -182,6 +182,68 @@ The third command I ran was " aws s3 ls s3://alvin-final-report" which validated
 
 ---
 
+## VPC Endpoints
+
+
+---
+
+
+
+---
+
+
+## Setting up a Gateway
+
+A Gateway is a type of endpoint used specifically for Amazon S3 and DynamoDB (DynamoDB is an AWS database service). Gateways work by simply adding a route to your VPC route table that directs traffic bound for S3 or DynamoDB to head straight for the Gateway instead of the internet.
+
+### What are endpoints?
+
+An endpoint is a service that allowes VPCs to route traffic directly to the intended service instead of to the internet gateway. This way, my EC2 instance won't have to communicate over the internet.
+
+![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_09bcaa8a)
+
+---
+
+## Bucket policies
+
+A bucket policy is a piece of code that defines that actions that are allowed to occur within an S3 bucket.
+
+My bucket policy will block all traffic except, that which is coming from the endpoint specified.
+
+![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_7316a13d)
+
+---
+
+## Bucket policies
+
+Right after saving my bucket policy, my S3 bucket page showed 'denied access' warnings. This was because my policy denies all traffic attempts not from the specified endpoint. This includes my AWS account.
+
+I also had to update my route table because it currently didn't have any routes that allowed the EC2 instance to connect to the S3 bucket without going through the internet.
+
+![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_4ec7821f)
+
+---
+
+## Route table updates
+
+To update my route table, I went to my endpoint and clicked on the route table tab. From there I selected the route table for my subnet and clicked " Modify route table" to add a new route.
+
+After updating my public subnet's route table, my terminal could return the objects in my S3 bucket after running the command " aws s3 ls s3://alvin-final-report".
+
+![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_d116818e)
+
+---
+
+## Endpoint policies
+
+An endpoint policy is a block of code that defines the actions that the endpoint will allow. You can block use of endpoint or limit it to specific accounts.
+
+I updated my endpoint's policy by changing the Effect from Allow to Deny. I could see the effect of this right away, because when I ran the command to see the objects in my bucket again, I was denied.
+
+![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-endpoints_3e1e79a3)
+
+---
+
 
 
 
