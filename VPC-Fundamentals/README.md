@@ -157,7 +157,7 @@ Now that I've learnt about EC2 Global View, I'd use it again if I ever do a muli
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/c99f2878fe93b4e791b467655a7b3c143ff59c77/images/architecture4.png?raw=true)
 
 ---
 
@@ -198,6 +198,7 @@ My new network ACL has two simple rules - deny all inbound traffic, and deny all
 ---
 
 ---
+
 
 
 
