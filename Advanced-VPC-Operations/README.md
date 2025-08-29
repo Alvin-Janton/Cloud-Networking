@@ -5,41 +5,7 @@
 
 ---
 
-
-
----
-
-## In the first part of my project...
-
-### Step 1 - Set up VPCs
-
-In this step, I will use the VPC Wizard to create two new VPCs in minutes.
-
-### Step 2 - Launch EC2 instances
-
-In this step, I will launch two EC2 instances in both VPCs public subnets.
-
-### Step 3 - Set up Logs
-
-In this step, I will set up VPC flow logs, and set up log analysis using CloudWatch.
-
-### Step 4 - Set IAM permissions for Logs
-
-In this step, I will create an IAM role to allow VPC Flow Logs to write logs and send them to CloudWatch.
-
----
-
-## Multi-VPC Architecture
-
-I started my project by launching two VPCs using the VPC Wizard.
-
-The CIDR blocks for VPCs 1 and 2 are 10.1.0.0/16, and 10.2.0.0/16 respectively. They have to be unique because if two VPCs have the same CIDR block it could cause IP address collision.
-
-### I also launched EC2 instances in each subnet
-
-My EC2 instances' security groups allow ICMP traffic from the other VPCs CIDR block. This is because ICMP traffic is blocked by default, but I need to use the ping command to test connectivity.
-
-![Image](http://learn.nextwork.org/intense_azure_festive_sow/uploads/aws-networks-monitoring_e7fa8775)
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/fa567f8096e259104b89bf1a0d1cc7d834647d07/images/architecture10.png?raw=true)
 
 ---
 
@@ -137,3 +103,4 @@ This query analyzes the top 10 largest traffic transfered in bytes, as well as f
 ---
 
 ---
+
