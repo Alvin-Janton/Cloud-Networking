@@ -68,10 +68,14 @@ Recommended order:
 
 ### Project Architecture
 
-This diagram provides a high-level overview of the entire VPC networking journey, from basic subnet setup to advanced logging and secure S3 access with VPC endpoints.
+The diagrams below provide a high-level overview of the entire VPC networking journey, from basic subnet setup to advanced logging and secure S3 access with VPC endpoints.
 
 ---
 
-![Project Architecture](images/architecture-overview.png)
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/fa567f8096e259104b89bf1a0d1cc7d834647d07/images/architecture10.png?raw=true)
+
+---
+
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/687dc3680f5d81b6c29fa489e91ccb7973a2287a/images/architecture11.png?raw=true)
 
 ---
