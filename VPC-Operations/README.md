@@ -73,7 +73,7 @@ The set up page also offered to create NAT gateways, which are services that all
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/d7ac20ce6d44548c1266d5d802fb8dc976d25a40/images/architecture6.png?raw=true)
 
 ---
 
@@ -140,5 +140,6 @@ I ran the command "curl learn.nextwork.org" which returned the html contents of 
 ---
 
 ---
+
 
 
