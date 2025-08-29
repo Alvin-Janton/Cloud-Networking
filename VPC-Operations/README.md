@@ -5,7 +5,7 @@
 
 ---
 
-
+![Architecture](https://github.com/Alvin-Janton/Cloud-Networking/blob/52567aa8c5cf70c02dfbd4a684df44017f25e8e8/images/architecture5.png?raw=true)
 
 ---
 
@@ -68,3 +68,4 @@ The set up page also offered to create NAT gateways, which are services that all
 ---
 
 ---
+
